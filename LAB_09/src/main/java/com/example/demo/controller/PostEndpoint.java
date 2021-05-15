@@ -51,17 +51,7 @@ public class PostEndpoint {
 		
 	}
 	
-	/////////
 	
-	@DeleteMapping("/findAllBooks/{id}")	
-	public String  deleteBook( @PathVariable int id) {
-		bookRepository.deleteById(id);
-		return "bbbbbbbbbb"+id;
-		
-		
-	}
-	
-	///////
 	
 	
 	@DeleteMapping("/{id}")
